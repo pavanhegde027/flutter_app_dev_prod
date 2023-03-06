@@ -24,15 +24,6 @@ class MyApp extends StatelessWidget {
 }
 
 
-//Add
-//nnnnnnnnn
-//Checkout master
-//checkout prod
-//Pull request
-//compare and pull request
-//master
-//Production
-
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, });
   @override
