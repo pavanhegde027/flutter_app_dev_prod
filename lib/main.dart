@@ -23,10 +23,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//Checkout master
+//checkout prod
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, });
-
-
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -56,8 +57,6 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             // Every value is hardcoded in the app.
             // No development or production variants exist yet.
-
-
             Text('This is the ${config.flavorName} app.'),
             Text('Backend API url is ${config.apiBaseUrl}'),
           ],
