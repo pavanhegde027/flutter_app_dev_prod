@@ -56,6 +56,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             // Every value is hardcoded in the app.
             // No development or production variants exist yet.
+
+
             Text('This is the ${config.flavorName} app.'),
             Text('Backend API url is ${config.apiBaseUrl}'),
           ],
